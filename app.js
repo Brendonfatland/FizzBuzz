@@ -53,7 +53,7 @@ $(document).ready(function() {
         var userInput = parseInt($("#input").val(), 10); // Maybe take out the .val() because its not need with parser.
 
         // Clears out textbox
-        $('#input input').html('');
+        $('#userInputText input').html('');
 
         //call function- pass in user input.
         named(userInput);
