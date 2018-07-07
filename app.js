@@ -50,10 +50,10 @@ $(document).ready(function() {
         e.preventDefault();
 
         // parses string to int, passes to userInput. Makes sure users entry is  a number.
-        var userInput = parseInt($("#input").val(), 10); // Maybe take out the .val() because its not need with parser.
+        var userInput = parseInt($("#userInputText").val(), 10); // Maybe take out the .val() because its not need with parser.
 
         // Clears out textbox
-        $('#userInputText input').html('');
+        $('#userInputText').html('');
 
         //call function- pass in user input.
         named(userInput);
